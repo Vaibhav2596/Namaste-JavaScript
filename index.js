@@ -1,9 +1,14 @@
-var x = 7;
+var x = 1;
+a();
+b();
+console.log(x);
 
-function getName() {
-  console.log("Namaste JavaScript");
+function a() {
+  var x = 10;
+  console.log(x);
 }
 
-getName();
-console.log(x);
-console.log(getName);
+function b() {
+  var x = 100;
+  console.log(x);
+}
